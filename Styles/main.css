@@ -1,39 +1,177 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+
+
 body{
-  margin: 0;
-  background-image: url(https://66.media.tumblr.com/3f60ae25f12f2dde0a81569df99f57e8/tumblr_ngeggq5dva1qcavg2o1_500.gif) ;
-  background-repeat:repeat;
-  font-family: arial;
+  margin-right: 220px;
+  margin-left: 220px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  display: block;
+  background-image: url("file:///Users/emmasingle/workspace/emma-single.github.io/Styles/pizzapizza.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  max-width: 980px
+  width: 90%
   text-align: justify;
   text-decoration: none;
 }
 
-
-header h1{
-  margin: 0;
-  display: inline;
-  padding: 5px 15px 0 15px
-  background: white
+html{
+  font-family: 'Raleway', sans-serif;
 }
 
-nav ul{
+a:link{
+    color:violet;
+}
+a:hover{
+    color:violet;
+}
+a:visited{
+    color:violet;
+}
+
+.container-fluid {
+  margin-right: 220px;
+  margin-left: 220px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.grid {
+  margin: auto;
+  max-width: 1200px;
+  width: 100%;
+  background-color: white
+}
+
+.row {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex; flex-wrap
+  background-color: white
+}
+
+.col-md-1 {
+  width: 8.33%;
+  overflow: hidden;
+}
+
+.col-md-2 {
+  width: 16.66%;
+  overflow: hidden;
+}
+
+.col-md-3 {
+  width: 25%;
+  overflow: hidden;
+}
+
+.col-md-4 {
+  width: 33.33%;
+  overflow: hidden;
+}
+
+.col-md-5 {
+  width: 41.66%;
+  overflow: hidden;
+}
+
+.col-md-6 {
+  width: 50%;
+  overflow: hidden;
+}
+
+.col-md-7 {
+  width: 58.33%;
+  overflow: hidden;
+}
+
+.col-md-8 {
+  width: 66.66%;
+  overflow: hidden;
+}
+
+.col-md-9 {
+  width: 75%;
+  overflow: hidden;
+}
+
+.col-md-10 {
+  width: 83.33%;
+  overflow: hidden;
+}
+
+.col-md-11 {
+  width: 91.66%;
+  overflow: hidden;
+}
+
+.col-md-12 {
+  width: 100%;
+  overflow: hidden;
+  background-color: white;
+}
+
+header h1 h3{
   margin: 0;
+  display: inline;
   padding: 0;
-  display: inline;
-  background: white
+  background: white;
+  text-align: left;
 }
 
-nav ul, li{
-  background-color: teal
+nav ul li{
+  margin: 0;
+  padding: 5px 5px;
+  display: inline-block;;
+  background: white
+  list-style-type: none;
+}
+
+li a {
+    display: block;
+}
+
+li{
+  display: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: white;
+}
+
+nav ul li{
+  background-color: white
   margin: 0;
   display: inline-block;;
-  list-style-type: none;
-  padding: 5px 15px;
+
 }
 
 nav ul li a{
   color: violet;
 }
 
-p{
+nav {
   background-color: white
+}
+
+.active {
+    background-color: teal;
+    color: white;
+}
+
+img{
+  vertical-align: middle;
 }
