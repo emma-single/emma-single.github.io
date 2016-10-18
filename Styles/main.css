@@ -170,6 +170,15 @@ ul{
 
 }
 
+.blogs{
+  text-align: center;
+}
+
+.planet{
+  float: left;
+  margin: 44px 10px 0 0;
+}
+
 nav{
   text-align: left;
   flex-direction: row;
