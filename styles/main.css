@@ -10,7 +10,7 @@
 
 body{
   display: block;
-  background-image: url("file:///Users/emmasingle/workspace/emma-single.github.io/styles/pizzapizza.png");
+  background-image: url("./pizzapizza.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
