@@ -7,10 +7,9 @@
 }
 
 
-
 body{
   display: block;
-  background-image: url("pizzapizza.png");
+  background-image: url("styles/pizzapizza.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
