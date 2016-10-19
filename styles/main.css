@@ -171,10 +171,6 @@ nav{
   flex-direction: row;
 }
 
-.navbar{
-  width: 100%;
-}
-
 li a {
     display: inline-block;
 }
