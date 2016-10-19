@@ -179,6 +179,10 @@ a {
   padding: 8px;
 }
 
+.bloglist{
+  display: grid;
+}
+
 li{
   background-color: white
   margin: 0;
