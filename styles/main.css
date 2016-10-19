@@ -176,11 +176,7 @@ li a {
 
 a {
   display: block;
-  padding: 8px;
-}
-
-.bloglist{
-  display: grid;
+  padding: 0px;
 }
 
 li{
